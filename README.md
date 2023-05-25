@@ -7,12 +7,15 @@ find_package(OpenCV REQUIRED)
 include/ORBextractor.h
 #include <opencv/cv.h>   --->   #include <opencv2/opencv.hpp>
 
-Sim3Solver.cc
-add   --->   #include <opencv2/core/core_c.h>
 
 include/PnPsolver.h
+#include <opencv2/core/core.hpp>
+--->
 #include <opencv2/core.hpp>
 #include <opencv2/core/core_c.h>
+
+Sim3Solver.cc
+add   --->   #include <opencv2/core/core_c.h>
 
 FrameDrawer.cc
 #include <opencv2/imgproc/types_c.h>
