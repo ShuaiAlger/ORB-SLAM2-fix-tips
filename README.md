@@ -20,6 +20,9 @@ add   --->   #include <opencv2/core/core_c.h>
 FrameDrawer.cc
 #include <opencv2/imgproc/types_c.h>
 
+Tracking.cc
+#include <opencv2/imgproc/types_c.h>
+
 LoopClosing.cc
     typedef map<KeyFrame*,                  //键
                 g2o::Sim3,                  //值
